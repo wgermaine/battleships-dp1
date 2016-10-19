@@ -208,6 +208,7 @@ public static class GameController
 	public static void EndDeployment()
 	{
 		//deploy the players
+		
 		_theGame.AddDeployedPlayer(_human);
 		_theGame.AddDeployedPlayer(_ai);
 
