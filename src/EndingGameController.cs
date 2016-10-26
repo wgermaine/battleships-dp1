@@ -26,7 +26,7 @@ static class EndingGameController
 		if (GameController.HumanPlayer.IsDestroyed) {
 			SwinGame.DrawTextLines("YOU LOSE!", Color.White, Color.Transparent, GameResources.GameFont("ArialLarge"), FontAlignment.AlignCenter, 0, 0, SwinGame.ScreenWidth(), SwinGame.ScreenHeight());
 		} else {
-			SwinGame.DrawTextLines("-- WINNER --", Color.White, Color.Transparent, GameResources.GameFont("ArialLarge"), FontAlignment.AlignCenter, 0, 0, SwinGame.ScreenWidth(), SwinGame.ScreenHeight());
+			SwinGame.DrawTextLines("-- WINNER --", Color.White, Color.Transparent, GameResources.GameFont("ArialLarge"), FontAlignment.AlignCenter, 20, 20, SwinGame.ScreenWidth(), SwinGame.ScreenHeight());
 		}
 	}
 
